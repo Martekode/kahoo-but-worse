@@ -11,11 +11,7 @@ function Question(){
         answers.map((answer) => {
             newAnswers.push(answer);
         });
-        console.log(input)
-        console.log(newAnswers)
-        console.log(answers)
         newAnswers.push(input);
-        console.log(newAnswers)
         setAnswers(newAnswers);
     };
     const onChange = (event) => {
