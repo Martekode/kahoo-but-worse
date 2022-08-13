@@ -1,0 +1,13 @@
+.header{
+    margin: unset;
+    display: flex;
+}
+.headerButton{
+    margin-left: 1em;
+    background-color: green;
+    color: white;
+    border-color:red;
+}
+h1{
+    margin: unset;
+}

@@ -1,20 +1,32 @@
 import React from 'react';
-import Question from './components/Question';
+import Game from './components/Game';
+import Header from './Header'
+import Footer from './Footer'
+import './App.css';
 import {
   RecoilRoot,
   atom,
   selector,
-  useRecoilState,
-  useRecoilValue,
 } from 'recoil';
+
 export const userAnswers = atom({
   key: 'userAnswers',
   default: ['hello world',],
 })
+export const correctAnswersArray = atom({
+  key:'correctAnswersArray',
+  default: [],
+})
 export function App() {
   return (
+    
     <RecoilRoot>
-      <Question />
+      <Header/>
+      <header className='App-header'>
+      <Game/>
+      </header>
+      <Footer/>
     </RecoilRoot>
+    
   );
 }

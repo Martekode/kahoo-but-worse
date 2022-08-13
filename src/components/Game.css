@@ -1,0 +1,15 @@
+.submit-answers{
+    width:30%;
+    height:10%;
+    margin-left:35%;
+    color:white;
+    background: green;
+    border-color:lightgreen;
+    border-radius:10px;
+    transition: linear 0.2s;
+}
+.submit-answers:hover{
+    background-color: lightseagreen;
+    border-color:lightseagreen;
+    transform:scale(1.2);
+}
