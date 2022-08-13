@@ -1,6 +1,6 @@
 
 import React from "react";
-import SingleAnswer from "./SingleAnswer";
+import {SingleAnswer} from "./SingleAnswer";
 import { useRecoilState } from "recoil";
 import { correctAnswersArray } from "../App";
 const merge = (a,b)=>{
