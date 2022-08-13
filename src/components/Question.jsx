@@ -4,7 +4,7 @@ import { userAnswers } from "../App";
 import { useState } from "react";
 import { useEffect } from "react";
 import { decode } from "html-entities";
-import Answers from './Answers'
+import {Answers} from './Answers'
 
 function Question(props){
     // const [answers,setAnswers] = useRecoilState(userAnswers);

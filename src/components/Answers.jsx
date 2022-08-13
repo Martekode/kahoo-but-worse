@@ -16,11 +16,11 @@ const merge = (a,b)=>{
 const doStuff = () => {
     
 }
-const shuffle = (array)=>{
+export const shuffle = (array)=>{
     array.sort(() => Math.random() - 0.5);
     return array;
 }
-function Answers(props) {
+export function Answers(props) {
     const [answersArray,setAnswersArray] = useRecoilState(correctAnswersArray);
     const correctAnswer = props.answersPayload.correct_answer;
     let incorrectAnswers = props.answersPayload.incorrect_answers;
@@ -43,4 +43,3 @@ function Answers(props) {
     
 }
 
-export default Answers 
